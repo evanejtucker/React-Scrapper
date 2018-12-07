@@ -6,7 +6,8 @@ const moviesSchema = new Schema({
   rating: { type: Number },
   poster: {type: String},
   overview: {type: String},
-  release_date: {type: Date}
+  release_date: {type: Date},
+  saved: {type: Boolean, default: false}
 });
 
 const Movies = mongoose.model("Movies", moviesSchema);

@@ -6,7 +6,7 @@ const tmdbRoutes = require("./tmdb");
 // moive routes
 router.use("/movies", movieRoutes);
 
-// tmdb routes
+// the movie database routes
 router.use("/tmdb", tmdbRoutes);
 
 // For anything else, render the html page
